@@ -14,7 +14,7 @@ If the cursor leaves the grid, it wraps around along its current direction.
 The commands
 
 * ^\: set forwards to (0, -1)
-* >\: set forwards to (1, 0)
+* \>\: set forwards to (1, 0)
 * v\: set forwards to (0, 1)
 * <\: set forwards to (-1, 0)
 * +\: add 1 cargo
