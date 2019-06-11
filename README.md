@@ -11,21 +11,22 @@ Positive x is right, positive y is down.
 If the cursor leaves the grid, it wraps around along its current direction.
 
 
-The commands
+The operators
 
-* ^\: set forwards to (0, -1)
-* \>\: set forwards to (1, 0)
-* v\: set forwards to (0, 1)
-* <\: set forwards to (-1, 0)
-* +\: add 1 cargo
-* -\: subtract 1 cargo
-* L,J,F,7\: Curve sections. If we have cargo, follow the curve. (e.g. going into L from the right sends you up)
-* /\: Ramp. If we don't have cargo, jump over the next position.
-* 1-9 (except 7)\: Add this much fuel
-* f\: print the amount of fuel
-* l\: print the character with the code point of the amount of fuel remaining
-* c\: print the amount of cargo
-* o\: print the character with the code point of the amount of fuel remaining
-* i\: Set the amount of fuel to an inputted value
-* I\: Set the amount of cargo to an inputted value
-
+| Operator | Action |
+|---|---|
+| ^ | set forwards to up |
+| \> | set forwards to right |
+| v | set forwards to down |
+| < | set forwards to left |
+| + | add 1 cargo  |
+| \- | subtract 1 cargo (if above 0)  |
+| L,J,F,7 | Curve sections. If we have cargo, follow the curve. (e.g. going into L from the right sends you up)  |
+| / | Ramp. If we don't have cargo, jump over the next position.  |
+| 1-9 (except 7) |  Add this much fuel  |
+| f |  print the amount of fuel  |
+| l | print the character at the code point of the amount of fuel remaining  |
+| c | print the amount of cargo  |
+| o | print the character with the code point of the amount of cargo remaining  |
+| i | Set the amount of fuel to an inputted value  |
+| I | Set the amount of cargo to an inputted value  |
