@@ -30,3 +30,4 @@ The operators
 | o | print the character with the code point of the amount of cargo remaining  |
 | i | Set the amount of fuel to an inputted value  |
 | I | Set the amount of cargo to an inputted value  |
+| . | No-op |
